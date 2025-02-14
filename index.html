@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rohit Yadav - Landing Page</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="navbar-brand">
+      <img src="https://png.pngtree.com/png-vector/20221012/ourmid/pngtree-developers-workspace-isometric-illustration-coding-the-p-concept-programmer-poster-vector-png-image_28436110.jpg" alt="Rohit Yadav Logo" class="logo" />
+      Rohit's Portfolio
+    </div>
+    <nav>
+      <ul class="navbar-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="navbar-toggler" onclick="toggleMenu()">☰</button>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>
+        Welcome to Your Future with
+        <span class="animate-text">InnovateHub</span>
+      </h1>
+      <p>Your journey to mastering web development starts here. Let's build something amazing together!</p>
+      <a href="#services" class="btn">Explore Services</a>
+    </div>
+    <div class="hero-image">
+      <img src="images/banner-01.webp" alt="Rohit Yadav - Web Developer" />
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hi! I'm Rohit Yadav, a passionate Web Developer and a Computer Science Engineering student. I specialize in creating responsive websites and full-stack web applications using modern technologies like React, Node.js, and MongoDB. I'm also an aspirant preparing for IAS and a keen learner in AI/ML.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h2>My Services</h2>
+    <div class="services-list">
+      <div class="service">
+        <i class="icon web-icon">🌐</i>
+        <h3>Web Development</h3>
+        <p>Building dynamic, responsive, and user-friendly websites with modern tech stacks.</p>
+      </div>
+      <div class="service">
+        <i class="icon backend-icon">🖧</i>
+        <h3>Backend Development</h3>
+        <p>Creating secure and scalable backend solutions using Node.js and Express.js.</p>
+      </div>
+      <div class="service">
+        <i class="icon mentorship-icon">🎓</i>
+        <h3>Mentorship</h3>
+        <p>Helping aspiring developers learn coding and achieve their career goals.</p>
+      </div>
+      <div class="service">
+        <i class="icon agile-icon">📈</i>
+        <h3>Agile Consulting</h3>
+        <p>Guiding teams in Agile practices like Scrum, Kanban, and project management.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio">
+    <h2>My Projects</h2>
+    <div class="portfolio-gallery">
+      <div class="portfolio-item">
+        <i class="icon fas fa-shopping-cart fa-3x" aria-hidden="true"></i>
+        <p>E-commerce Website - Full-stack MERN Project</p>
+      </div>
+      <div class="portfolio-item">
+        <i class="icon fas fa-robot fa-3x" aria-hidden="true"></i>
+        <p>AI Chatbot - NLP-powered Chatbot</p>
+      </div>
+      <div class="portfolio-item">
+        <i class="icon fas fa-users fa-3x" aria-hidden="true"></i>
+        <p>Mentorship Platform - Alumni Connection App</p>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+    <h2>Client Feedback</h2>
+    <div class="testimonials-carousel">
+      <div class="testimonial">
+        <p>"Rohit's expertise in web development is exceptional. His work speaks volumes."</p>
+        <span>- Ankit Sharma</span>
+      </div>
+      <div class="testimonial">
+        <p>"Great mentorship and coding support. I learned a lot from him."</p>
+        <span>- Priya Gupta</span>
+      </div>
+      <div class="testimonial">
+        <p>"Amazing work! The best developer I've worked with."</p>
+        <span>- Rajesh Kumar</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Rohit Yadav. All rights reserved.</p>
+    <ul class="social-icons">
+      <li><a href="#"><i class="icon facebook-icon">📘</i></a></li>
+      <li><a href="#"><i class="icon twitter-icon">🐦</i></a></li>
+      <li><a href="#"><i class="icon linkedin-icon">🔗</i></a></li>
+      <li><a href="#"><i class="icon instagram-icon">📸</i></a></li>
+    </ul>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
